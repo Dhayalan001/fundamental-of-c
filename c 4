@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+char str[20];
+clrscr();
+printf(enter the string:");
+gets(str);
+printf("the length of the string is :%d",strlen(str));
+getch();
+}_
